@@ -8,6 +8,7 @@ We have the following tutorials:
 
 1. [Basic Descriptive Statistics](/presentation.ipynb)
 2. [Linear Algebra](/linear_algebra.ipynb)
+3. [Probability](/Probability.ipynb)
 
 ## Datasets
  

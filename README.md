@@ -1,14 +1,18 @@
 # Python-Statistics
-Examples on Descriptive Statistics and Linear Algebra in Python
+Examples on Descriptive Statistics, Probability theory and Linear Algebra in Python.
 
-## Iris Datasets
+
+## Tutorials:  
+
+We have the following tutorials:  
+
+1. [Basic Descriptive Statistics](/presentation.ipynb)
+2. [Linear Algebra](/linear_algebra.ipynb)
+
+## Datasets
  
-You can get it either from:  
+We are using
 
-1. `scikit-learn` datasets as follows:  
-```python
-from sklearn import datasets
-iris = datasets.load_iris()
-```
-2. Download it from its official website:  
-[Iris dataset](https://archive.ics.uci.edu/ml/datasets/iris)
+1. [Iris dataset](https://archive.ics.uci.edu/ml/datasets/iris)
+
+2. [KNMI dataset](https://www.knmi.nl/climatology/daily_data/download.html). a daily measure of weather info from plants across Netherlands.

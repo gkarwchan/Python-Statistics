@@ -6,7 +6,7 @@ Examples on Descriptive Statistics, Probability theory and Linear Algebra in Pyt
 
 We have the following tutorials:  
 
-1. [Basic Descriptive Statistics](/presentation.ipynb)
+1. [Basic Descriptive Statistics](/descriptive_statistics.ipynb)
 2. [Linear Algebra](/linear_algebra.ipynb)
 3. [Probability](/Probability.ipynb)
 

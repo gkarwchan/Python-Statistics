@@ -9,6 +9,7 @@ We have the following tutorials:
 1. [Basic Descriptive Statistics](/descriptive_statistics.ipynb)
 2. [Linear Algebra](/linear_algebra.ipynb)
 3. [Probability](/Probability.ipynb)
+4. [Machine Learning](/Machine_Learning.ipynb)
 
 ## Datasets
  

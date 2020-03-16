@@ -1,0 +1,50 @@
+optimizer:
+----------
+For each Site constraint (usually one):
+    call Site_Maskwa_steam_recommendation:
+	params:
+	    site_data: for each trunk -> pad : {
+		data (csv file / dropped unnamed column)
+		max_constraints (well constraints)
+		model
+		pad_constraints: (pad constraints)
+	    }
+	    scenario_id
+	    step_size: 100
+	    steam_site_daily_inject: 1100
+	    steam_site_constraint_daily : 1100
+	    trunk_constraints: (trunk constraints)
+	    well_statuses: (well statuses)
+	    start_date
+	    end_date
+
+===========================================================================================================================
+
+Site_Maskwa_steam_recommendation:
+-----------------------------
+
+	params:
+		site_data: for each trunk -> pad : {
+			data (csv file / dropped unnamed column)
+			max_constraints (well constraints)
+			model
+			pad_constraints: (pad constraints)
+		}
+		scenario_id
+		step_size: 100
+		steam_site_daily_inject: 1100
+		steam_site_constraint_daily : 1100
+		trunk_constraints: (trunk constraints)
+		well_statuses: (well statuses)
+		start_date
+		end_date
+
+	variables / code:
+		steam_site_daily_inject: 1100
+		build the following: 
+			Pad_infill_well_list: wells per trunk
+			pad_constraints : list of (pad, [constraints])
+			well_constraints: list of (well, [constraints])
+			date_ranges: for each date range add this: 
+				(end_date, start_date, min_trunk_stream ([0,0,0]), max_trunk_stream([]), 
+			
